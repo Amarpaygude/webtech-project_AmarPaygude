@@ -1,0 +1,1046 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    
+}
+body{
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+}
+p, a, span, li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+header {
+    background-color: black;
+    height: 50px;
+    z-index: 1000;
+} 
+ .navbar{
+    z-index: 1000;
+}
+.navbar  a{
+    align-items: center;
+    padding: 0 60px;
+    color: white;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -31px;
+}
+.navbar p {
+    font-weight: 500;
+    font-size: 14.5px;
+    margin-left: 70px;
+    color: white;
+}
+
+.logo img {
+    height: 30px;
+    width: 32px;
+}
+.logo p a{
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: -50px;
+}
+
+.nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    position: relative;
+    text-align: left;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+#i3{
+  color: white;
+  font-weight: 600;
+}
+#i2{
+    background-color: lightgray;
+    color: white;
+    margin-left: -10px;
+    width: 20px;
+}
+.nav a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.download {
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: 600;}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 2px 2px black;
+    color: black;
+    width: 1250px;height: 900px;
+}
+.submenu2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 2px 2px black;
+    color: black;
+    width: 1250px;height: 900px;
+}
+.submenu3 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 2px 2px black;
+    color: black;
+    width: 1250px;height: 900px;
+}
+.submenu4 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 2px 2px black;
+    color: black;
+    width: 1250px;height: 900px;
+}
+#img3{
+z-index:1 ;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+#img4{
+    z-index: 1;
+    position: absolute;
+    float:left;
+}
+.div1{
+    position: absolute;
+    margin-top: -10px;
+    z-index: 1;
+    width: 100%;
+}
+.heading-5{
+    font-size: small;
+}
+.btn3{
+margin: 28.5px;
+}
+.btn2{
+margin: 58px;
+}
+.browse {
+    width: fit-content;
+    float: left;
+    background-color: white;
+    color:black;
+    display: flex;
+    justify-content: left;
+}
+.browse ul li:hover{
+font-weight: 900;}
+.browse ul li{
+font-size: 12px;
+font-weight: 200;
+}
+.browse ul li a:hover{
+    font-weight: 700;
+}
+.browse h4 {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    color: black;
+}
+ul li {
+    margin-bottom: 8px;
+    color: black;
+    margin-left: -10px;
+
+}
+ul li a {
+    text-decoration: none;
+    width: 500px;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    text-shadow: 10px black;
+}
+.browse ul li a{
+    font-size: 12px;
+    font-weight: 200;
+    }
+ .browse ul li a:hover{
+         font-weight: 700;
+ }
+.dropdown:hover .submenu {
+    display: block;
+    text-align: left; 
+    margin-left: -130px;
+    height: fit-content;   
+}
+.dropdown:hover .submenu2 {
+    display: block;
+    text-align: left; 
+    margin-left: -249px;   
+    width: 1249px;
+    height: 550px;
+}
+.dropdown:hover .submenu3 {
+    display: block;
+    text-align: left; 
+    margin-left: -359px;   
+    width: 1100px;
+    height: 600px;
+}
+.dropdown:hover .submenu4 {
+    display: block;
+    text-align: left; 
+    margin-left: -559px;   
+    width: 1300px;
+    height: 600px;
+}
+.dropdown .submenu .browse ul li a{
+    color: black;
+}
+.dropdown .submenu2 .browse ul li a{
+    color: black;
+}.dropdown .submenu3 .browse ul li a{
+    color: black;
+}
+.dropdown .submenu4 .browse ul li a{
+    color: black;
+}
+.btn2{
+    background-color: rgb(226, 89, 89);
+    border-radius: 20px;
+    text-align: center;
+    width: 190px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.btn0002{
+    background-color: rgb(226, 89, 89);
+    border-radius: 20px;
+    text-align: center;
+    width: 190px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 300px;
+}
+.btn0002:hover{
+    background-color: white;
+    color: rgb(226, 89, 89);
+}
+.buton001{
+    background-color: rgb(226, 89, 89);
+    border-radius: 20px;
+    text-align: center;
+    width: 190px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.buton001:hover{
+    background-color: white;
+    color: rgb(226, 89, 89);
+}
+.buton002{
+    background-color: rgb(226, 89, 89);
+    border-radius: 20px;
+    text-align: center;
+    width: 190px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.buton002:hover{
+    background-color: white;
+    color: rgb(226, 89, 89);
+}
+.buton003{
+    background-color: rgb(226, 89, 89);
+    border-radius: 20px;
+    text-align: center;
+    width: 190px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 60px;
+    margin-left: -300px;
+}
+.buton003:hover{
+    background-color: white;
+    color: rgb(226, 89, 89);
+}
+.btn2:hover{
+    background-color: white;
+    color: rgb(226, 89, 89);
+}
+.btn3:hover{
+    background-color: white;
+    color: lightblue;
+}
+#img2{
+    float: left;
+    height: 70px;
+    width: 230px;
+    position: sticky;
+}
+#nav2{
+    text-align: center;
+    color: white;
+    background-color: rgb(247, 73, 73);
+    font-size: 30px;
+    margin-top: -40px;
+    height: fit-content;
+}
+#nav2 h1{
+    margin-top: 40px;
+} 
+.div2 {
+    display: flex;
+    justify-content: right;
+}
+#btn1   
+{   
+    height: 60px;
+    width: 260px;
+    border-radius: 20px;
+    background-color: rgb(61, 36, 61);
+    color: white; 
+    font-size: 23px;
+    cursor: pointer;
+    display: block;
+}
+.image-and-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.btn3 {
+    background-color: lightblue;
+    border-radius: 20px;
+    text-align: center;
+    width: 190px;
+    font-weight: 700;
+    display: block;
+    font-size: 20px;
+}
+#img3 {
+    margin-bottom: 10px; 
+}
+.div1{
+    background-color: black;
+    z-index: -1;
+}
+.navbar .dropdown {
+    position: relative;
+}
+
+.btn001{
+    border-radius: 25px;
+    font-size:14px ; 
+    background-color:black;
+    color: white;
+    height:60px;
+    width: 280px; 
+    margin-right: 70px;
+    border: none;
+    font-weight: 700;
+}
+  .btn001:hover {
+    background-color: white; 
+    color: black;
+    transition: background-color 0.8s ease, color 0.8s ease;
+  }
+  .pre{
+    font-size: 25px;
+    overflow: hidden;
+    font-weight: 900;
+    opacity: 0.5;
+    cursor: pointer;
+    width: fit-content;    
+    position: sticky;
+  }
+  .pre:hover{
+    text-shadow: 0 0 15px whitesmoke
+
+  }
+  .btn002{
+    border-radius: 25px;
+    font-size:14px ; 
+    background-color:goldenrod;
+    color: white;
+    height:60px;
+    width: 280px; 
+    margin-right: 70px;
+    border: none;
+    font-weight: 600;
+}
+  .btn002:hover {
+    background-color:white; 
+    color:goldenrod;
+    transition: background-color 0.8s ease, color 0.8s ease;
+  }
+  .btn003{
+    border-radius: 25px;
+    font-size:14px ; 
+    background-color:rgb(255, 96, 96);
+    color: white;
+    height:60px;
+    width: 280px; 
+    margin-right: 70px;
+    border: none;
+    font-weight: 600;
+}
+  .btn003:hover {
+    background-color:white; 
+    color:rgb(255,96,96);
+    transition: background-color 0.8s ease, color 0.8s ease;
+  }
+  .btn004{
+    border-radius: 25px;
+    font-size:14px ; 
+    background-color:rgb(49, 113, 250);
+    color: white;
+    height:60px;
+    width: 280px; 
+    margin-right: 70px;
+    border: none;
+    font-weight: 600;
+}
+  .btn004:hover {
+    background-color:white; 
+    color:rgb(49, 113, 250);
+    transition: background-color 0.8s ease, color 0.8s ease;
+  }
+  .btn005{
+    border-radius: 25px;
+    font-size:14px ; 
+    background-color:rgb(146, 131, 1);
+    color: white;
+    height:60px;
+    width: 280px; 
+    margin-right: 70px;
+    border: none;
+    font-weight: 600;
+}
+  .btn005:hover {
+    background-color:white; 
+    color:rgb(146, 131, 1);
+    transition: background-color 0.8s ease, color 0.8s ease;
+  }
+  .btn006{
+    border-radius: 25px;
+    font-size:14px ; 
+    background-color:purple;
+    color: white;
+    height:60px;
+    width: 280px; 
+    margin-right: 70px;
+    border: none;
+    font-weight: 600;
+}
+  .btn006:hover {
+    background-color:white; 
+    color:purple;
+    transition: background-color 0.8s ease, color 0.8s ease;
+  }
+  .div3{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    background-image:url(./IMAGE2/starwars.webp);
+    background-position: 740px 150px ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ 
+  }
+#img01{
+    height: 60px ;
+    width: 190px;
+    text-align: left;
+    z-index: 10;
+  }
+  .heading01{
+    font-weight:bolder;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: whitesmoke;
+  }
+  .p1{font-weight: 100;
+font-size: 23px;
+text-align: center;
+color: whitesmoke;
+}
+.btn7{
+    display: block;
+    margin: 0 auto; 
+    border-radius: 25px;
+    font-size:20px ; 
+    background-color:rgb(252, 5, 133);
+    color: whitesmoke;
+    height:60px;
+    width: 280px; 
+    border: none;
+    font-weight: 700;
+    margin-top: 20px;
+}
+  .btn7:hover {
+    background-color:whitesmoke; 
+    color:rgb(252, 5, 133);
+    transition-duration: 0.6s;
+    border: 1px solid rgb(252, 5, 133);
+  }
+
+  #img02{
+    display: inline;
+    position: absolute; 
+    z-index: -1;
+    top: 0;
+    right: 0; 
+    height: 300px;
+    width: 450px;
+    align-items: flex-end;
+  }
+  .scrolldiv{
+    height: 690px;
+    width: fit-content;
+    background-color: whitesmoke;
+  }
+  .heading3{
+    font-weight: 900;
+    text-align: center;   
+  }
+
+.scrolldiv .carousel-item img {
+   padding: 0 0 25px 20px;
+    height: 310px;  
+    object-fit: cover;  
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.scrolldiv .custom-prev-icon {
+    display: inline-block;
+    width: 70px;  
+    height: 80px;   
+    background-image: url('./IMAGE2/previous2.svg');  
+    background-size: cover; 
+    opacity: 1;
+    background-size: cover;
+}
+.custom-next-icon {
+    display: inline-block;
+    width: 70px;   
+    height: 80px;   
+    background-image: url('./IMAGE2/next2.svg'); 
+    background-size: cover; 
+    opacity: 0.4;
+}
+.scrolldiv .image-caption{
+    text-align: left;
+    margin: 29px;
+    margin-top: -20px;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.scrolldiv .image-caption:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.scrolldiv .logos .imglast{
+    height: 43px;
+    width: 43px;
+    opacity: 0.6;
+    z-index: 1000;
+    margin-top: -20px;
+}
+.divlast{
+    text-align: center;
+}
+.btnscroll{
+    position: sticky;
+    text-align: center;
+   font-size: 18px;
+   padding: 20px 20px 20px 20px;
+   border-radius: 100px;
+   line-height: 14px;
+   width: 270px;
+   font-weight: 600;
+   color: white;
+   background-color: rgb(252, 5, 133);
+   border: none;
+}
+.btnscroll:hover{
+    background-color:whitesmoke;
+    color: rgb(252, 5, 133);
+    border: 1px solid rgb(252, 5, 133);
+    border-color: rgb(252, 5, 133);
+    transition-duration: 0.6s;
+}
+.news .heading1{
+    font-weight: 900;
+    text-align: center;
+    font-size: 32px;
+    text-align: center;
+}
+.nav-tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    border-bottom: 2px solid white;
+}
+
+.nav-tabs .nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-tabs .nav-link {
+    color: rgb(252, 5, 133);
+    display: inline-block;
+    height: 20px;
+    width: 90%;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 100;
+    text-align: center;
+}
+.nav-tabs .nav-link.active {
+color: rgb(252, 5, 133);
+font-weight: 900;
+}
+
+.nav-tabs .nav-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+.news-content .date {
+    color: gray;
+    font-size: 0.9em;
+}
+
+.news-content h4, .news-content h5,h3 {
+    font-weight: bold;
+    text-align: justify;
+}
+
+.row.equal-height {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+    /* width: 100%; */
+}
+
+.row.equal-height .col-md-6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.head01:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+.news{
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+}
+.btnscroll1{
+    position: sticky;
+   font-size: 18px;
+   padding: 20px 20px 20px 20px;
+   border-radius: 100px;
+   line-height: 14px;
+   width: 270px;
+   font-weight: 600;
+   color: white;
+   background-color: rgb(252, 5, 133);
+   border: none;
+}
+.btnscroll1:hover{
+    background-color:whitesmoke;
+    color: rgb(252, 5, 133);
+    border: 1px solid rgb(252, 5, 133);
+    border-color: rgb(252, 5, 133);
+    transition-duration: 0.6s;
+}
+.date{
+    text-align: justify;
+}
+.ubisoftstore{
+    height: fit-content;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.head02{
+    font-weight: 900;
+    text-align: center;
+    font-size: 29px;
+}
+.a1 img{
+    display: inline;
+    text-decoration: none;
+    float: left;
+    z-index: -1;
+    text-align: center;    
+    height: 500px;
+    width: 450px;
+    margin: 26px;
+    margin-right: 30px;
+    background-color: whitesmoke;
+}
+.CARDSMAIN {
+    padding: 20px;
+    text-align: center;
+    height: fit-content;
+    width: 100%;
+
+}
+
+.heading {
+    font-size: 29px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.card {
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px black;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.card-image {
+    width: 400px;
+    height: 500px;
+    z-index: 1;
+}
+
+.card-content {
+    z-index: 1000;
+    text-align: center;
+
+}
+.card-content h3:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.card-title {
+    font-size: 22px;
+    color: white;
+    z-index: 1000;
+    text-transform: uppercase;
+    font-weight: 900;
+    position:absolute;
+    margin-top: -90px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(41, 40, 40, 0.729);
+    display: inline-block;
+    height: 290px;
+    width: 400px;
+    text-align: center;
+    margin: -120px;
+    margin-left: -205px;
+}
+.ubisoftstore, .CARDSMAIN {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    clear: both;
+}
+
+.fankit{
+    height: 600px;
+    width: 1516px;
+    background-color: whitesmoke;
+    /* clear: both; */
+    margin: 0;
+    
+}
+.fankitimg{
+    z-index: 1000;
+}
+.fankitimg img{
+    float: right;
+    height: 400px;
+    width: 730px;
+    margin-top: -290px;
+    margin-right: 60px;
+}
+.fankit .heading11 h1{
+    font-weight: 900;
+}
+
+.fankit .heading11,.btn20{
+margin-left: 60px;
+    /* display: inline; */
+    z-index: -1;
+}
+.btn20 button {
+    position: sticky;
+   font-size: 18px;
+   padding: 20px 20px 20px 20px;
+   border-radius: 100px;
+   line-height: 14px;
+   width: 270px;
+   font-weight: 600;
+   color: white;
+   background-color: rgb(252, 5, 133);
+   border: none;
+   text-align: center;
+   /* display: inline; */
+   z-index: 1;
+}
+.btn20 button:hover{
+    background-color:whitesmoke;
+    color: rgb(252, 5, 133);
+    border: 1px solid rgb(252, 5, 133);
+    border-color: rgb(252, 5, 133);
+    transition-duration: 0.6s;
+    /* display: inline; */
+}
+
+.ubisoftconnect{
+    height: fit-content;
+    width: 100%;
+    background-color:rgb(43, 43, 118);
+    display: flex;
+    flex-wrap: nowrap;
+    background-image: url(./IMAGES/backgrnd.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ubisoftconnect img{
+    height: 320px;
+    width: 588px;
+}
+.ubisoftconnect button{
+    background-color: rgb(30, 30, 205);
+    color: whitesmoke;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 14px  14px  10px 10px;
+    line-height: 10px;
+    width: 370px;
+    font-weight: 700;
+    margin: 30px;
+    text-align: center;
+}
+.ubisoftconnect button:hover{
+    color:rgba(30, 30, 205, 0.919);
+    background-color: whitesmoke;
+    border: 1px solid rgba(30, 30, 205, 0.919);
+}
+.secondlast{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    top: 0;
+    margin-top: -20px;
+    
+}
+.secondlast h6{
+    text-align: left;
+    font-size: small;
+    color: rgba(255, 255, 255, 0.627);
+}
+.iconslast  {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 12px;
+    font-size: 32px;
+  }
+  .iconslast img{
+    height: 40px;
+    display: inline;
+    cursor: pointer;
+  }
+.last{
+    background-color: rgb(28, 28, 28);
+    height: 460px;
+    width: 100%;
+}
+.headlast{
+    margin-left: 70px;
+}
+.headinglast a{
+    font-weight: 900;
+    font-size: 25px;
+    top: 3px;
+    color: whitesmoke;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .headinglast a:hover{
+    color: whitesmoke;
+  }
+
+  .imglast{
+    width: 50px;
+
+  }
+  .lastbtn{
+    text-align: center;
+    top: 0;
+    margin-top: -60px;
+  }
+  .lastbtn button{
+    font-weight: 700;
+    line-height: 40px;
+    padding: 10px;
+    width: 370px;
+    border-radius: 30px;
+    font-size: large;
+    background-color: rgba(128, 128, 128, 0.247);
+    color: whitesmoke;border: none;clear: left;
+  }
+  .lastbtn button:hover{
+    border: none;
+    background-color: rgba(171, 171, 171, 0.662);
+  }
+  .lang h1{
+    font-weight: 700;
+    text-align: right;
+    margin: 60px;
+    margin-top: -50px;
+    color: whitesmoke;
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    margin-top: -220px;
+  }
+  .lastlist{
+    text-align: left;
+    margin-left: 40px;
+    cursor: pointer;
+    float: left;
+    margin-top: -120px;
+    font-size: 14px;
+  }
+  .lastlist .lastlist1 .listpart:hover{
+    text-decoration: underline whitesmoke;
+  }
+  .lastlist .lastlist1 .listpart{
+    color: rgba(174, 173, 173, 0.69);
+    line-height: 30px;
+  }
+  .listpart1{
+    font-size: 18px;
+    font-weight: 600;
+    color: whitesmoke;
+  }
+  .listpart1:hover{
+    text-decoration: underline whitesmoke;
+  }
+  .lastlist2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    margin-top: 50px;
+    gap: 60px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .lastlist2 ul li{
+    font-size: 18px;
+    font-weight: 900;
+    color: whitesmoke;
+  }
+  .lastlist2 ul li:hover{
+    text-decoration: underline whitesmoke;
+    cursor: pointer;
+  }
+  .lastimg{
+    display: flex;
+   justify-content: right;
+  margin: 50px;
+  align-items: center;
+  margin-top: 20px;
+  }
+  .lastimg img{
+    margin-top: -260px;
+    cursor: pointer;
+  }
+  .lastimg p{
+    color: whitesmoke;
+    font-size: 11px;
+    margin-right: -80px;
+    font-weight: 500;
+    align-items: end;
+    margin-top: -30px;
+  }
+
+
+
+  
